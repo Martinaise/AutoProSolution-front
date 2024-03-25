@@ -1,6 +1,5 @@
-
 import Header from "../../compenents/Visiteur/Header";
-// import Footer from "../../compenents/Visiteur/Footer";
+import Footer from "../../compenents/Visiteur/Footer";
 
 export default function HomeView() {
   return (
@@ -9,10 +8,12 @@ export default function HomeView() {
       <header>
         <Header />
       </header>
-
-      {/* <footer>
+      <main>
+        
+      </main>
+      <footer>
         <Footer />
-      </footer> */}
+      </footer>
     </div>
   );
 }
